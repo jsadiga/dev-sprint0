@@ -222,6 +222,10 @@ class Turtle(Animal):
         """Changes the pen color of the turtle."""
         self.pen_color = color
 
+    def fdlt(turtle,n,angle):
+        fd(turtle,n)
+        lt(turtle,angle)
+
 
 """Add the turtle methods to the module namespace
 so they can be invoked as simple functions (not methods).
